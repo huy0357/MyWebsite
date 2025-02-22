@@ -10,6 +10,8 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 @SuppressWarnings("serial")
 @Data
@@ -30,5 +32,6 @@ public class OrderDetail implements Serializable {
     private Integer quantity;
     private String discription;
     private Integer amount;
+
 
 }

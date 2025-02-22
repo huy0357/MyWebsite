@@ -12,5 +12,4 @@ public class ShopNowApplication {
 		SpringApplication.run(ShopNowApplication.class, args);
 		System.out.println("/////////////////Server success on localhost:8080 /////////////////////////");
 	}
-
 }

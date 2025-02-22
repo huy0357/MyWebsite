@@ -15,7 +15,7 @@ import com.websiteshop.service.RoleService;
 @CrossOrigin("")
 @RestController
 @RequestMapping("/rest/roles")
-public class RoleRestController {
+public class    RoleRestController {
 
     @Autowired
     RoleService roleService;
