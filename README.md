@@ -2,7 +2,6 @@
 
 **ShopNow** là một trang web bán hàng điện tử đa dụng, cung cấp đa dạng sản phẩm từ các nhà cung cấp uy tín và chất lượng. Trang web có giao diện thân thiện, dễ sử dụng, giúp người dùng tìm kiếm, mua hàng và theo dõi đơn hàng một cách thuận tiện. Admin có thể quản lý sản phẩm, danh mục, đơn hàng, thống kê và thông tin khách hàng. Trang web sử dụng nhiều công nghệ như **HTML/CSS**, **Bootstrap**, **AngularJS**, **Java Spring Boot**, **JavaScript** và **SQL Server**. Tôi hy vọng **ShopNow** sẽ mang đến cho người dùng một trải nghiệm mua sắm trực tuyến tốt nhất.
 
-[Link demo:](https://www.youtube.com/watch?v=9PJy_2lt59w&t=5s)
 
 ### GIAO DIỆN WEBSITE
 
@@ -52,21 +51,3 @@ Một vài ảnh demo giao diện phía **Admin**:
 
 ---
 
-**Link Website ShopNow**
-
-[Click here](https://github.com/ThucSkin/Website-ShopNow)
-
-### Hướng dẫn cấu hình kết nối DATABASE
-
-**Nhấn [vào đây](https://drive.google.com/file/d/1fJ8lP4_UDuCgg2vN3sMAJab2kcNB4pYz/view) để lấy Link DATABASE**
-
-Chọn file **application.properties** và cấu hình theo hướng dẫn bên dưới:
-
-```
-    spring.datasource.url=jdbc:sqlserver://localhost;database=[**data_name**];
-    encrypt=true;trustServerCertificate=true;sslProtocol=TLSv1.2
-    spring.datasource.username=[**Database_Name**]
-    spring.datasource.password=[**password**]
-    spring.datasource.driverClassName=com.microsoft.sqlserver.jdbc.SQLServerDriver
-    spring.jpa.hibernate.dialect=org.hibernate.dialect.SQLServer2012Dialect
-```
