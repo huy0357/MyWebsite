@@ -35,9 +35,6 @@ Một vài ảnh demo giao diện phía người dùng:
 
 Một vài ảnh demo giao diện phía **Admin**:
 
-## ![Tên ảnh](/src/main/resources/static/assets/images/hinh7QLorder.png)
-
----
 
 ## ![Tên ảnh](/src/main/resources/static/assets/images/hinh8.png)
 
